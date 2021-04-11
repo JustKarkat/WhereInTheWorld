@@ -1,0 +1,24 @@
+{
+  "name": "whereintheworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url ./ index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.3",
+    "@google-cloud/translate": "^6.2.0",
+    "cassandra-driver": "^4.6.2",
+    "jquery": "^3.6.0",
+    "ol": "^6.5.0",
+    "uuid": "^8.3.2"
+  }
+}
