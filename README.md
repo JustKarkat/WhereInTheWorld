@@ -14,3 +14,8 @@ Natural Earth / Core https://datahub.io/core/geo-countries
 implement leaderboard
 implement translation
 implement automatic question generation
+# How To Use
+If you want to build you own copy of the site,
+it needs Parcel and Node. Node Modules not
+included, and can be installed via the
+packages.json.
